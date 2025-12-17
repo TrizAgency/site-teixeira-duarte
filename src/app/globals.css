@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-green: #22352F;
+  --color-orange: #D3691F;
+  --color-beige: #E4DDD1;
+  --font-sans: var(--font-alexandria);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+@media (max-width:1279px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: auto;
+  }
+}
