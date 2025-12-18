@@ -9,7 +9,7 @@ const alexandria = Alexandria({
 
 export const metadata: Metadata = {
   title: "Teixeira Duarte Advogados",
-  description: "Não nos conformamos com o básico.",
+  description: "Atuação especializada para quem busca defesa técnica, escuta ativa e resultados concretos.",
 };
 
 export default function RootLayout({
