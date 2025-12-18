@@ -57,7 +57,7 @@ export default function Team() {
                         <div
                             className="bg-[#EDE8DE] rounded-[60px] max-w-3xl w-full p-14 shadow-lg relative mx-4 overflow-y-auto"
                             style={{
-                                maxHeight: '90vh',
+                                maxHeight: '80vh',
                             }}
                             onClick={(e) => e.stopPropagation()}
                         >
@@ -76,7 +76,7 @@ export default function Team() {
                                     Área de atuação: {teamMembers[selectedMember].area}
                                 </p>
                             )}
-                            <p className="text-black lg:text-lg font-light text-left leading-relaxed">
+                            <p className="text-black lg:text-lg text-sm font-light text-left leading-relaxed">
                                 {teamMembers[selectedMember].resume}
                             </p>
                         </div>

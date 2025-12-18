@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Partners() {
   return (
-    <section id="parceiros" className="lg:py-36 py-20 lg:rounded-bl-[210px] lg:rounded-br-none rounded-br-[210px] bg-green">
+    <section id="parceiros" className="lg:py-36 py-20 lg:rounded-bl-[210px] lg:rounded-br-none rounded-br-[140px] bg-green">
         <div className="container">
             <h2 className="lg:text-3xl text-2xl text-center font-light text-orange mb-20">Parcerias que <strong className="font-semibold">fortalecem</strong> nossa atuação.</h2>
 

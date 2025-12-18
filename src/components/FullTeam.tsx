@@ -101,7 +101,7 @@ export default function FullTeam() {
                         <div
                             className="bg-[#EDE8DE] rounded-[60px] max-w-3xl w-full p-14 shadow-lg relative mx-4 overflow-y-auto"
                             style={{
-                                maxHeight: '90vh',
+                                maxHeight: '80vh',
                                 // For mobile, ensure modal is scrollable and fits the viewport
                             }}
                             onClick={(e) => e.stopPropagation()}

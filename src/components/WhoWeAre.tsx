@@ -1,6 +1,6 @@
 export default function WhoWeAre() {
   return (
-    <section id="quem-somos" className="lg:py-36 py-20 rounded-br-[210px] bg-green">
+    <section id="quem-somos" className="lg:py-36 py-20 rounded-br-[140px] lg:rounded-br-[210px] bg-green">
       <div className="container">
         <h2 className="lg:text-3xl text-2xl text-center font-light text-white">Quem Somos</h2>
 
