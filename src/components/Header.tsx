@@ -7,11 +7,11 @@ import { useState } from "react";
 export default function Header() {
     const menuItems = [
         { label: "Home", href: "/" },
-        { label: "Quem Somos", href: "#quem-somos" },
-        { label: "Áreas de Atuação", href: "#areas-de-atuacao" },
-        { label: "Equipe", href: "#equipe" },
-        { label: "Parceiros", href: "#parceiros" },
-        { label: "Contato", href: "#contato" },
+        { label: "Quem Somos", href: "/#quem-somos" },
+        { label: "Áreas de Atuação", href: "/#areas-de-atuacao" },
+        { label: "Equipe", href: "/#equipe" },
+        { label: "Parceiros", href: "/#parceiros" },
+        { label: "Contato", href: "/#contato" },
     ];
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
