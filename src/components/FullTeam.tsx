@@ -49,7 +49,7 @@ export default function FullTeam() {
         },
         {
             name: "Marcelo Trevisan <br/> Góes",
-            email: "",
+            email: "marcelo@teixeiraduarte.adv.br",
             area: "Trabalhista e Desportivo",
             resume: "Advogado, graduado em Direito pela Universidade Presbiteriana Mackenzie (1990), sócio benemérito do Instituto Brasileiro de Direito Desportivo e coautor do livro Direito Aplicado à Gestão do Esporte (São Paulo: Trevisan Editora, 2013). Atuante em Tribunais Desportivos desde 1991, foi conferencista do 1º Congresso Brasileiro de Justiça e Direito Desportivo, realizado em Curitiba/PR (2003), bem como membro do Corpo Docente da Escola Profissionalizante de Administração Esportiva, administrada pelo Sindicato das Associações de Futebol Profissional do Estado de São Paulo (2001/2002). Integrou o Corpo Docente do Curso Superior Tecnológico de Gestão de Esportes e Clubes Esportivos da Faculdade Drummond, onde leciona a disciplina “Conceitos de Direito Desportivo” (2005). Atua, ainda, como Auditor do Tribunal de Justiça Desportiva da Federação Paulista de Volleyball e da Liga Nacional de Futsal, além de exercer a função de Procurador do Tribunal de Justiça Desportiva do Futebol Interno do Esporte Clube Pinheiros.",
         },
