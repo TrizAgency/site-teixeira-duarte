@@ -8,19 +8,19 @@ export default function Team() {
         {
             name: "Leandro Silva <br/> Teixeira Duarte",
             email: "leandro@teixeiraduarte.adv.br",
-            area: "Direito Trabalhista",
-            resume: "Advogado com mais de 20 anos de experiência dedicados exclusivamente ao Direito do Trabalho. Especialista pela Pontifícia Universidade Católica de São Paulo (2005), construiu trajetória profissional marcada por atuação estratégica em departamentos jurídicos de grandes organizações, incluindo empresa de referência no setor da saúde e tradicional clube de futebol da capital paulista. Exerceu o cargo de Presidente da 2ª Comissão Disciplinar do Tribunal de Justiça Desportiva da Federação Paulista de Futebol (2017) e integra, na qualidade de Auditor, o Pleno do Tribunal de Justiça Desportiva da Federação Paulista de Basquete e da Federação Paulista de Volleyball. É sócio responsável pela área trabalhista de escritório de advocacia com atuação nacional, conduzindo processos judiciais de alta complexidade e de expressiva relevância jurídica, social e econômica.",
+            area: "Trabalhista",
+            resume: "Advogado com mais de 20 anos de experiência dedicados exclusivamente ao Direito do Trabalho. Especialista pela Pontifícia Universidade Católica de São Paulo (2005), construiu trajetória profissional marcada por atuação estratégica em departamentos jurídicos de grandes organizações, incluindo empresa de referência no setor da saúde e tradicional clube de futebol da capital paulista. Exerceu o cargo de Presidente da 2ª Comissão Disciplinar do Tribunal de Justiça Desportiva da Federação Paulista de Futebol (2017) e integra, na qualidade de Auditor, o Pleno do Tribunal de Justiça Desportiva da Federação Paulista de Basquete e da Federação Paulista de Volleyball. Atualmente, é Presidente da Associação Portuguesa de Desportos (mandato 2025-2027). É sócio responsável pela área trabalhista de escritório de advocacia com atuação nacional, conduzindo processos judiciais de alta complexidade e de expressiva relevância jurídica, social e econômica.",
         },
         {
             name: "Luiz Gustavo <br/> Figueiredo de Abreu",
             email: "luiz.gustavo@teixeiraduarte.adv.br",
-            area: "Direito Trabalhista",
+            area: "Controladoria jurídica",
             resume: "Advogado com mais de 15 anos de experiência dedicados exclusivamente ao Direito do Trabalho, possui trajetória marcada por atuações estratégicas em departamentos jurídicos de grandes organizações, incluindo empresas de referência no setor de saúde. Graduado em Direito pela Universidade Paulista (2003).",
         },
         {
             name: "Flávia Amarante <br/> Teixeira Duarte",
             email: "flavia@teixeiraduarte.adv.br",
-            area: "Direito Criminal",
+            area: "Direito Penal",
             resume: "Advogada com experiência na área criminal, com passagem por escritórios boutique de renome e atuação em grandes operações e casos de alta complexidade. É graduada em Direito pela Universidade Presbiteriana Mackenzie (2019) e pós-graduanda em Direito e Processo Penal pela Universidade Presbiteriana Mackenzie (2026), bem como em Direito Médico e Bioética pela Faculdade de Ciências Médicas da Santa Casa de São Paulo (2027). Possui curso de extensão em Compliance pela Fundação Getúlio Vargas (2021). É associada ao Instituto de Defesa do Direito de Defesa (IDDD), com atuação no Departamento de Litígio Estratégico, e ao Instituto Brasileiro de Ciências Criminais (IBCCRIM).",
         },
     ];
@@ -76,7 +76,7 @@ export default function Team() {
                                     Área de atuação: {teamMembers[selectedMember].area}
                                 </p>
                             )}
-                            <p className="text-black lg:text-lg text-sm font-light text-left leading-relaxed">
+                            <p className="text-black lg:text-lg text-sm font-light text-justify leading-relaxed">
                                 {teamMembers[selectedMember].resume}
                             </p>
                         </div>

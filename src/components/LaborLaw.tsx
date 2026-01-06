@@ -9,13 +9,13 @@ export default function LaborLaw() {
         {
             name: "Leandro Silva Teixeira Duarte",
             email: "leandro@teixeiraduarte.adv.br",
-            area: "Direito Trabalhista",
+            area: "Trabalhista",
             resume: "Advogado com mais de 20 anos de experiência dedicados exclusivamente ao Direito do Trabalho. Especialista pela Pontifícia Universidade Católica de São Paulo (2005), construiu trajetória profissional marcada por atuação estratégica em departamentos jurídicos de grandes organizações, incluindo empresa de referência no setor da saúde e tradicional clube de futebol da capital paulista. Exerceu o cargo de Presidente da 2ª Comissão Disciplinar do Tribunal de Justiça Desportiva da Federação Paulista de Futebol (2017) e integra, na qualidade de Auditor, o Pleno do Tribunal de Justiça Desportiva da Federação Paulista de Basquete e da Federação Paulista de Volleyball. É sócio responsável pela área trabalhista de escritório de advocacia com atuação nacional, conduzindo processos judiciais de alta complexidade e de expressiva relevância jurídica, social e econômica.",
         },
         {
             name: "Luiz Gustavo Figueiredo de Abreu",
             email: "luiz.gustavo@teixeiraduarte.adv.br",
-            area: "Direito Trabalhista",
+            area: "Controladoria jurídica",
             resume: "Advogado com mais de 15 anos de experiência dedicados exclusivamente ao Direito do Trabalho, possui trajetória marcada por atuações estratégicas em departamentos jurídicos de grandes organizações, incluindo empresas de referência no setor de saúde. Graduado em Direito pela Universidade Paulista (2003).",
         },
     ]
@@ -40,7 +40,7 @@ export default function LaborLaw() {
 
         <div className="container pt-20">
             <h3 className="lg:text-3xl text-2xl font-bold text-orange flex items-center gap-6 mb-6">
-                <span>Direito Trabalhista</span>
+                <span>Direito do Trabalho</span>
             </h3>
             <p className="text-white lg:text-xl text-lg font-light mb-20 max-w-4xl">
                 Atuamos de maneira personalizada e estratégica, oferecendo soluções inovadoras e eficazes, moldadas às necessidades de cada empresa, com o objetivo de apoiar decisões seguras e céleres.
@@ -88,7 +88,7 @@ export default function LaborLaw() {
                                     Área de atuação: {responsibles[selectedMember].area}
                                 </p>
                             )}
-                            <p className="text-black lg:text-lg font-light text-left leading-relaxed">
+                            <p className="text-black lg:text-lg font-light text-justify leading-relaxed">
                                 {responsibles[selectedMember].resume}
                             </p>
                         </div>
