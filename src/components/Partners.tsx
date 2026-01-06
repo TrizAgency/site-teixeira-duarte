@@ -22,7 +22,7 @@ export default function Partners() {
             </div>
 
             <div className="mt-20 flex flex-col lg:flex-row gap-10 items-center justify-center">
-                <Image src="/ricardo-calcini.png" alt="Logo Parceiro" width={250} height={250} className="object-contain lg:mx-10.25" />
+                <Image src="/ricardo-calcini.png" alt="Logo Parceiro" width={220} height={250} className="object-contain rounded-4xl lg:mx-14" />
 
                 <div className="flex flex-col gap-5 max-w-2xl">
                     <p className="text-lg text-orange">Ricardo Calcini | Calcini Advogados</p>
