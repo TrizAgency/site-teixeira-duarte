@@ -21,7 +21,7 @@ export default function FullTeam() {
             name: "Flávia Amarante <br/> Teixeira Duarte",
             email: "flavia@teixeiraduarte.adv.br",
             area: "Direito Penal",
-            resume: "Advogada com experiência na área criminal, com passagem por escritórios boutique de renome e atuação em grandes operações e casos de alta complexidade. É graduada em Direito pela Universidade Presbiteriana Mackenzie (2019) e pós-graduanda em Direito e Processo Penal pela Universidade Presbiteriana Mackenzie (2026), bem como em Direito Médico e Bioética pela Faculdade de Ciências Médicas da Santa Casa de São Paulo (2027). Possui curso de extensão em Compliance pela Fundação Getúlio Vargas (2021). É associada ao Instituto de Defesa do Direito de Defesa (IDDD), com atuação no Departamento de Litígio Estratégico, e ao Instituto Brasileiro de Ciências Criminais (IBCCRIM).",
+            resume: "Advogada com experiência na área criminal, com passagem por escritórios boutique de renome e atuação em grandes operações e casos de alta complexidade. É graduada em Direito pela Universidade Presbiteriana Mackenzie (2019) e pós-graduanda em Direito e Processo Penal pela Universidade Presbiteriana Mackenzie (2026). Possui curso de extensão em Compliance pela Fundação Getúlio Vargas (2021). É associada ao Instituto de Defesa do Direito de Defesa (IDDD), com atuação no Departamento de Litígio Estratégico, e ao Instituto Brasileiro de Ciências Criminais (IBCCRIM).",
         },
         {
             name: "Amanda Neves <br/> de Souza",
